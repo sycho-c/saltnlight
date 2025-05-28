@@ -6,10 +6,10 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="saltnlight">
     <title>saltnlight</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="icon" href="/assets/icons/favicon.ico">
-    <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="assets/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/icons/icon-192x192.png">
 </head>
 <body>
     <div id="root"></div>
@@ -18,7 +18,7 @@
         // 서비스 워커 등록
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/service-worker.js')
+                navigator.serviceWorker.register('service-worker.js')
                     .then(reg => console.log('서비스 워커가 등록되었습니다.', reg.scope))
                     .catch(err => console.log('서비스 워커 등록 실패:', err));
             });
