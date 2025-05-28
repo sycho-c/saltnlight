@@ -1,0 +1,108 @@
+.resource-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.resource-detail-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.resource-detail-loading,
+.resource-detail-error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.resource-detail-error {
+  color: #dc3545;
+}
+
+/* 마크다운 스타일링 */
+.resource-detail h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  word-break: keep-all;
+}
+
+.resource-detail h2 {
+  font-size: 1.8rem;
+  margin: 2rem 0 1rem;
+  color: var(--primary-color);
+  word-break: keep-all;
+}
+
+.resource-detail h3 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1rem;
+  word-break: keep-all;
+}
+
+.resource-detail p {
+  margin-bottom: 1.2rem;
+  line-height: 1.8;
+  word-break: keep-all;
+}
+
+.resource-detail strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.resource-detail blockquote {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border-left: 4px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 1.1rem;
+}
+
+.resource-detail blockquote p {
+  margin-bottom: 0;
+}
+
+.resource-detail hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 2px solid var(--secondary-color);
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .resource-detail {
+    padding: 1rem;
+  }
+
+  .resource-detail-content {
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .resource-detail h1 {
+    font-size: 2rem;
+  }
+
+  .resource-detail h2 {
+    font-size: 1.5rem;
+  }
+
+  .resource-detail h3 {
+    font-size: 1.3rem;
+  }
+
+  .resource-detail blockquote {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+} 
