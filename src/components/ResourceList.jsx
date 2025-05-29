@@ -12,7 +12,7 @@ const resourcesData = [
 const ResourceList = () => (
   <div className="resources">
     {resourcesData.map((resource, idx) => (
-      <Link key={resource.id} to={`/resource/${resource.id}`} style={{ textDecoration: 'none' }}>
+      <Link key={resource.id} to={`/saltnlight/resource/${resource.id}`} style={{ textDecoration: 'none' }}>
         <ResourceItem title={resource.title} />
       </Link>
     ))}

@@ -13,7 +13,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/saltnlight" replace />} />
             <Route path="/saltnlight" element={<ResourceList />} />
-            <Route path="/resource/:id" element={<ResourceDetail />} />
+            <Route path="/saltnlight/resource/:id" element={<ResourceDetail />} />
           </Routes>
         </section>
       </main>

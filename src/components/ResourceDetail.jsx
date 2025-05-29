@@ -11,7 +11,7 @@ const ResourceDetail = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`/public/data/${id}.md`)
+    fetch(`/saltnlight/data/${id}.md`)
       .then((res) => {
         if (!res.ok) throw new Error('자료를 찾을 수 없습니다.');
         return res.text();
