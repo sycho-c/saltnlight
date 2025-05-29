@@ -1,19 +1,19 @@
 const CACHE_NAME = 'saltnlight-v1';
 const ASSETS_TO_CACHE = [
-    './',
-    './index.html',
-    './css/styles.css',
-    './js/app.js',
-    './manifest.json',
-    './assets/icons/icon-72x72.png',
-    './assets/icons/icon-96x96.png',
-    './assets/icons/icon-128x128.png',
-    './assets/icons/icon-144x144.png',
-    './assets/icons/icon-152x152.png',
-    './assets/icons/icon-192x192.png',
-    './assets/icons/icon-384x384.png',
-    './assets/icons/icon-512x512.png',
-    './assets/icons/favicon.ico',
+    '/',
+    '/index.html',
+    '/css/styles.css',
+    '/js/app.js',
+    '/manifest.json',
+    '/assets/icons/icon-72x72.png',
+    '/assets/icons/icon-96x96.png',
+    '/assets/icons/icon-128x128.png',
+    '/assets/icons/icon-144x144.png',
+    '/assets/icons/icon-152x152.png',
+    '/assets/icons/icon-192x192.png',
+    '/assets/icons/icon-384x384.png',
+    '/assets/icons/icon-512x512.png',
+    '/assets/icons/favicon.ico',
     'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap'
 ];
 
