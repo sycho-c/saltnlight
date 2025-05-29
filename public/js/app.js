@@ -4,7 +4,7 @@ let deferredPrompt;
 const resourcesData = [
     {
         title: '생각의 전쟁과 전신갑주',
-        url: './data/1',
+        url: '/data/1',
     }
 ];
 
